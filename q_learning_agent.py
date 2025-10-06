@@ -110,7 +110,7 @@ for ep in range(episodes):
 import matplotlib.pyplot as plt
 import numpy as np
 
-# ---------- 1. Normalized Reward vs Episodes ----------
+
 plt.figure(figsize=(10,5))
 plt.plot(range(1, len(episode_rewards)+1), episode_rewards, color='blue', linewidth=1)
 plt.xlabel('Episode')
